@@ -1,0 +1,7 @@
+"staff_id","branch_name","performance_score","number_of_transactions","total_sales_amount","average_transaction_value"
+"STF002","Jakarta Central Store","4.20","5","904500.00","180900.00"
+"STF003","Jakarta Central Store","3.80","3","401000.00","133666.67"
+"STF009","Surabaya Central","4.80","1","384000.00","384000.00"
+"STF014","Semarang Central","4.60","1","144000.00","144000.00"
+"STF005","Jakarta North Branch","4.00","1","126000.00","126000.00"
+"STF015","Makassar Branch","3.95","1","96000.00","96000.00"
