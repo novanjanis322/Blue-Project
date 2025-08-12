@@ -29,11 +29,11 @@ class DataTransformer:
         """Create final output with required columns in correct order."""
         output_columns = [
             'InternalSiteID',
-            'Alamat1',
-            'Alamat2', 
-            'Alamat3',
+            # 'Alamat1',
+            # 'Alamat2', 
+            # 'Alamat3',
             'Alamat4',
-            'SiteName',
+            # 'SiteName',
             'Funcloc'
         ]
         return df[output_columns].copy()
