@@ -110,6 +110,29 @@ This section implements a comprehensive retail analytics solution using PostgreS
 | Indomie Goreng Original | Chitato 68g | 2 |
 | Indomie Soto | Mie Sedaap Goreng | 2 |
 
+## Data Visualization Implementation
+
+**Dashboard**: **Retail Executive Command Center** (Implemented in Looker Studio)
+
+**Dashboard Link**: [View Live Dashboard](https://lookerstudio.google.com/reporting/cdb0c62d-a70b-4852-ae14-b909c46eb928)
+
+**Key Visualizations Implemented**:
+1. **Branch Performance Leaderboard**: Real-time inventory turnover ranking with color-coded alerts
+2. **Cross-Selling Frequency Analysis**: Product affinity chart for strategic bundling opportunities  
+3. **Top Staff Performance Table**: Sales performance metrics with heat map visualization
+4. **Performance vs Sales Scatter Plot**: Correlation analysis between staff scores and sales results
+
+**Data Sources Used**:
+- `turnover_result.csv` - Branch inventory and turnover metrics
+- `staff_performance_result.csv` - Staff sales and performance data
+- `purchase_patterns_result.csv` - Product co-occurrence analysis
+
+**Business Value Delivered**: 
+- **Real-time Branch Monitoring**: Instant identification of underperforming locations (e.g., Semarang Central with 0% turnover)
+- **Staff Optimization**: Clear visibility into top performers (STF002 with 904K sales) for recognition and training models
+- **Cross-selling Strategy**: Data-driven product placement based on actual purchase patterns (Indomie + Aqua combo)
+- **Executive Decision Support**: Actionable insights for immediate operational improvements
+
 
 ## Technical Achievements
 
@@ -137,6 +160,10 @@ This section implements a comprehensive retail analytics solution using PostgreS
     ├── basic_queries/
     │   ├── turnover_result.csv
     │   └── staff_performance_result.csv
-    └── intermediate_queries/
-        └── purchase_patterns_result.csv
+    ├── intermediate_queries/
+    │   └── purchase_patterns_result.csv
+    └── data_visualization/
+        ├── Blue_Retail_Monitoring_Dashboard.pdf
+        └── Blue_Retail_Monitoring_Dashboard_001.png
+
 ```
